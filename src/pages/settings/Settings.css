@@ -1,0 +1,66 @@
+.settings {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-top: 20px;
+}
+
+.add-device-btn {
+  background: var(--primary);
+  color: var(--text-primary);
+  border: none;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.add-device-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgb(0 0 0 / 45%);
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  z-index: 30;
+}
+
+.add-device-modal {
+  width: min(100%, 36rem);
+  max-height: min(90vh, 42rem);
+  overflow: auto;
+  border-radius: 0.75rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  padding: 1rem;
+}
+
+.remove-device {
+  color: var(--text-primary);
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+.device-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  background: var(--surface-primary);
+  box-shadow: 1px 1px 3px black;
+}
+
+.remove-device-btn {
+  background: transparent;
+  border: 1px solid var(--accent);
+  color: var(--color-text);
+  padding: 0.4rem 0.7rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}

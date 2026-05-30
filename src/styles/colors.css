@@ -1,0 +1,38 @@
+:root {
+  /* Backgrounds */
+  --bg-primary: #0f0f11;
+  --bg-secondary: #18181b;
+  --bg-tertiary: #232326;
+
+  /* Surfaces */
+  --surface-primary: #1f1f23;
+  --surface-secondary: #2a2a2f;
+
+  /* Primary Orange */
+  --primary: #ff7a1a;
+  --primary-hover: #ff8c33;
+  --primary-active: #e66b00;
+
+  /* Accent */
+  --accent: #ffb067;
+
+  /* Text */
+  --text-primary: #f5f5f5;
+  --text-secondary: #b3b3b8;
+  --text-muted: #7a7a85;
+
+  /* Borders */
+  --border-primary: #2f2f35;
+  --border-secondary: #3a3a42;
+
+  /* States */
+  --success: #22c55e;
+  --warning: #facc15;
+  --danger: #ef4444;
+
+  /* Shadows */
+  --shadow-primary: rgba(0, 0, 0, 0.35);
+
+  /* Glow */
+  --orange-glow: rgba(255, 122, 26, 0.35);
+}

@@ -1,0 +1,12 @@
+@import "./colors.css";
+@import "./base.css";
+@import "./typography.css";
+@import "./layout.css";
+
+body {
+  background: var(--bg-tertiary);
+}
+
+#root {
+  color: var(--text-primary);
+}

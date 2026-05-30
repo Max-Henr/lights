@@ -1,0 +1,55 @@
+.add-device {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  background: var(--surface-primary);
+  padding: 1rem;
+  border-radius: 0.75rem;
+}
+
+.add-device-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.add-device-close {
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  background: transparent;
+  color: var(--color-text);
+  padding: 0.4rem 0.7rem;
+  cursor: pointer;
+}
+
+.add-device-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.add-device-form label {
+  font-weight: 500;
+}
+
+.add-device-form input {
+  border: 1px solid var(--text-secondary);
+  border-radius: 0.5rem;
+  background: transparent;
+  color: var(--color-text);
+  padding: 0.4rem 0.7rem;
+  &:focus {
+    outline: none;
+    border-color: var(--primary);
+  }
+}
+
+.add-device-form button {
+  background: var(--primary);
+  color: var(--text-primary);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
